@@ -7,4 +7,11 @@
     tools:context="com.lab453.cyel.githubpractice.Activity4">
 
     <!--TODO 請嘉委做一個點擊後會跳到com.lab453.cyel.Activity5的Button-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="come to Activity5"
+        android:id="@+id/button4"/>
+
 </android.support.constraint.ConstraintLayout>
