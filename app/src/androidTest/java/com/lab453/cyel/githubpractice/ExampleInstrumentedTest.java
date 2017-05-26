@@ -1,4 +1,4 @@
-package com.s10576019.cyel.githubpractice;
+package com.lab453.cyel.githubpractice;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.s10576019.cyel.githubpractice.Activity3">
+    tools:context="com.lab453.cyel.githubpractice.Activity3">
 
+    <!--TODO 請亦軒做一個點擊後會跳到com.lab453.cyel.Activity4的Button-->
 </android.support.constraint.ConstraintLayout>

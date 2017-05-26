@@ -1,8 +1,9 @@
-package com.s10576019.cyel.githubpractice;
+package com.lab453.cyel.githubpractice;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+//TODO 請進昇做一個點擊後會跳到com.lab453.cyel.Activity7的Button
 public class Activity6 extends AppCompatActivity {
 
     @Override

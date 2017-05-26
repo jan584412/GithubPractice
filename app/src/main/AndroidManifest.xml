@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.s10576019.cyel.githubpractice">
+    package="com.lab453.cyel.githubpractice">
 
     <application
         android:allowBackup="true"
@@ -9,19 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity1">
+        <activity android:name="com.lab453.cyel.githubpractice.Activity1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity2" />
-        <activity android:name=".Activity3" />
-        <activity android:name=".Activity4" />
-        <activity android:name=".Activity5" />
-        <activity android:name=".Activity6" />
-        <activity android:name=".Activity7"></activity>
+        <activity android:name="com.lab453.cyel.githubpractice.Activity2" />
+        <activity android:name="com.lab453.cyel.githubpractice.Activity3" />
+        <activity android:name="com.lab453.cyel.githubpractice.Activity4" />
+        <activity android:name="com.lab453.cyel.githubpractice.Activity5" />
+        <activity android:name="com.lab453.cyel.githubpractice.Activity6" />
+        <activity android:name="com.lab453.cyel.githubpractice.Activity7"></activity>
     </application>
 
 </manifest>
