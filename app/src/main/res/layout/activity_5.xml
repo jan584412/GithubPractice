@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.lab453.cyel.githubpractice.Activity5">
 
-    <!--TODO 請冠名做一個點擊後會跳到com.lab453.cyel.Activity6的Button-->
+    <!--TODO 請冠名將Button讓參數符合附在專案裡面的示意圖-->
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"

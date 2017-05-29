@@ -6,7 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-//TODO 請進昇做一個點擊後會跳到com.lab453.cyel.Activity7的Button
+// 2017/05/29 在切換頁面時加入finish()   by 劉濬
+
+//TODO 請進昇加入手機下翻時，螢幕保護的功能(利用FlippingManager和ScreenSaver)
+//TODO 請進昇將更動寫在前面的註解裡，像是我上面寫的那樣
 public class Activity6 extends AppCompatActivity {
 
     @Override
@@ -22,7 +25,7 @@ public class Activity6 extends AppCompatActivity {
                 Intent intent = new Intent();
                 intent.setClass(Activity6.this, Activity7.class);
                 startActivity(intent);
-
+                finish();
             }
         });
     }

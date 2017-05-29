@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.lab453.cyel.githubpractice.Activity6">
 
-    <!--TODO 請進昇做一個點擊後會跳到com.lab453.cyel.Activity7的Button-->
+    <!--TODO 請進昇將Button讓參數符合附在專案裡面的示意圖-->
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
