@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,11 +7,20 @@
     tools:context="com.lab453.cyel.githubpractice.Activity7">
 
     <!--TODO 請啟展將Button讓參數符合附在專案裡面的示意圖-->
+    <!--加入此頁文字，按鍵置中，與專案內示意圖一樣   by啟展-->
+
+    <TextView
+        android:text="Page啟展"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
 
     <Button
         android:id="@+id/button"
-        android:text="Go To Activity1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Jump to Page老師" />
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
